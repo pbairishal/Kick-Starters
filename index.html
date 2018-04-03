@@ -1,0 +1,59 @@
+ 
+<div class="navbar">
+	<img class="logo" src='https://image.ibb.co/m9KkpG/Capturehgg.png'/>
+	<br>
+		<a>
+			<b>- Find the top Kickstarter projects </b>
+		</a>
+	</div>
+<div class="container">
+        
+		<div class = "row text-center horizontal-center-row">
+			<div class="col-xs-4 col-md-4">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" id="txtSearch"/>
+					<div class="input-group-btn">
+						<button class="btn btn-primary" type="submit" id="getMessage">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		
+			
+            <div>
+  <div class="row">
+     <div class="col-xs-6 col-md-6 radioButton">Sort by Funding Percentage:<br>
+         
+        <label><input type="radio" name="funding" value="low" id="radio_1"> Low to 
+High</label>
+        <label><input type="radio" name="funding" value="high" id="radio_2"> High to Low</label>
+             
+      </div>
+      <div class="col-xs-6 col-md-6 radioButton">Sort by End Time:<br>
+        <label><input type="radio" name="endtime" value="low" id="radio_3"> Low to High</label>
+        <label><input type="radio" name="endtime" value="high" id="radio_4"> High to Low</label>
+         
+      </div>
+    </div>
+</div>
+            
+            
+            <div class="col-xs-3 col-md-3">
+				
+					<select id="select_id2" class="form-control">
+						<option hidden>Filter By Location:</option>
+						    <option value="Town">Town</option>
+							<option value="Suburb">Suburb</option>
+							<option value="County">County</option>
+							<option value="Zip">Zip</option>
+					</select>
+					
+				
+			</div>
+		</div>
+       
+		<div>
+			<div class = "message"></div>
+		</div>
+	</div>
